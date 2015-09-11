@@ -102,12 +102,60 @@ header h2 {
   margin-bottom: 40px;
 }
 
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+
 a.button {
   display: block;
   float: left;
   width: 179px;
   padding: 12px 8px 12px 8px;
   margin-right: 14px;
+  font-family: Ubuntu;
   font-size: 15px;
   font-weight: bold;
   line-height: 25px;
@@ -250,9 +298,11 @@ form {
 
 h1 {
   font-size: 32px;
+  font-family: Ubuntu;
 }
 
 h2 {
+	font-family: Ubuntu;
   margin-bottom: 8px;
   font-size: 22px;
   font-weight: bold;
@@ -260,6 +310,7 @@ h2 {
 }
 
 h3 {
+	font-family: Ubuntu;
   margin-bottom: 8px;
   font-size: 20px;
   font-weight: italic;
@@ -268,25 +319,34 @@ h3 {
 }
 
 h4 {
+font-family: Ubuntu;
   font-size: 16px;
   font-weight: bold;
   color: #303030;
 }
 
 h5 {
+font-family: Ubuntu;
   font-size: 1em;
   color: #303030;
 }
 
 h6 {
-  font-size: .8em;
-  color: #303030;
+	background: transparent url(../images/header.jpg) 0 0;
+	font-family: Ubuntu;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.3999996185303px;
+	color: #FFFFFF;
 }
 
 p {
   margin-bottom: 20px;
   font-weight: 300;
   color: black;
+  font-family: Ubuntu;
 }
 
 a {
