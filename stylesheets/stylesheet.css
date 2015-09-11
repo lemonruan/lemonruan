@@ -102,6 +102,10 @@ header h2 {
   margin-bottom: 40px;
 }
 
+#name-link{
+	color: black;
+}
+
 .nav ul {
   list-style: none;
   background-color: #444;
@@ -368,6 +372,11 @@ ul li {
   list-style-position: inside;
   list-style: disc;
   padding-left: 20px;
+}
+
+ul#icons li {
+    display:inline;
+	padding-right: 5px;
 }
 
 ol li {
