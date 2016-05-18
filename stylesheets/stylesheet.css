@@ -138,6 +138,24 @@ header h2 {
   color: #444;
   cursor: default;
 }
+
+.essays ul {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.essays li {
+	display: inline;
+}
+
+.essays a{
+	color: #663300;
+	font-family: ubuntu;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
  
 @media screen and (min-width: 600px) {
   .nav li {
